@@ -2,7 +2,7 @@
 setlocal
 title Ghost Recon Wildlands - P-Core Wrapper
 
-set "WRAPPER=%~dp0wildlands_pcore_wrapper_v1_2.py"
+set "WRAPPER=%~dp0wildlands_pcore_wrapper.py"
 set "GAME=D:\SteamLibrary\steamapps\common\Wildlands\GRW.exe"
 
 echo.
@@ -16,7 +16,7 @@ echo.
 
 if not exist "%WRAPPER%" (
     echo [ERREUR] Le fichier Python est introuvable.
-    echo Place wildlands_pcore_wrapper_v1_2.py dans le meme dossier que ce BAT.
+    echo Place wildlands_pcore_wrapper.py dans le meme dossier que ce BAT.
     echo.
     pause
     exit /b 1
