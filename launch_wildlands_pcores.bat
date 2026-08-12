@@ -3,7 +3,7 @@ setlocal
 title Ghost Recon Wildlands - P-Core Wrapper
 
 set "WRAPPER=%~dp0wildlands_pcore_wrapper.py"
-set "GAME=D:\SteamLibrary\steamapps\common\Wildlands\GRW.exe"
+set "GAME=%~dp0GRW.exe"
 
 echo.
 echo ==========================================
